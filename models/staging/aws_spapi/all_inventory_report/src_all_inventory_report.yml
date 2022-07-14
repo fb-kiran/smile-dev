@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: gtg_allinventory
+    database: smile_source_dev
+    schema: go_time_gear
+    tables:
+      - name: us_gtg_inventoryreport
+  - name: lusso_gear
+    database: smile_source_dev
+    schema: lusso_gear
+    tables:
+      - name: us_test_lusso

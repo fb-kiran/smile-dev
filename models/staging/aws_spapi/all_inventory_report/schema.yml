@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: all_inventory
+    description: A staging model for all inventory.
+    

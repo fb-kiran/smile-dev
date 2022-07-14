@@ -1,5 +1,5 @@
 version: 2
-
+# add comment
 sources:
   - name: gtg_allinventory
     database: smile_source_dev

@@ -40,7 +40,7 @@ lusso_gear_allinventory as (
     from {{ source('lusso_gear', 'us_test_lusso') }}
 )
 
-
+-- add comment
 select * from final_gtg_allinventory
 union
 select * from lusso_gear_allinventory 
